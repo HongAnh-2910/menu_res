@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo-res {margin-left: 41px;margin-top: 20px;color: white;}
+
+ul#menu-respon {
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+ul#menu-respon li {
+    list-style: none;
+    padding-left: 45px;
+    padding-top: 7px;
+    border-top: 1px solid #ffffff96;
+    padding-left: 90px;
+}
+
+ul#menu-respon li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-responsive {
+    position: absolute;
+    width: 241px;
+    background: #333333;
+    list-style: none;
+    top: 0px;
+    /* left: 0px; */
+    min-height: 100%;
+    right: -242px;
+    transition: 0.4s;
+}
+
+#wp-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+    width: 30%;
+    min-height: 600px;
+    background: #03a9f485;
+}
+
+#content {
+    min-height: 600px;
+    width: 70%;
+    background: #ff00007a;
+}
+
+#menu-respon-icon {
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    color: white;
+    display: none;
+}
+
+
+
+ul#list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 90px;
+    top: 12px;
+}
+
+ul#list-menu li {
+    padding-left: 10px;
+    list-style: none;
+}
+
+ul#list-menu a {
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: rgb(128, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 31px;
+}
+#site{
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+
+#wrapper{
+    position: relative;
+    transition: 0.4s;
+}
+#header,#footer{
+    background-color: #33333326;
+    padding: 10px;
+}
+
+#header {
+    padding: 12px;
+}
+
+/* #site.open #wrapper{
+    left: 242px;
+    transition: 0.4s;
+} */
+#site.open #menu-responsive{
+    right: 0px;
+    transition: 0.4s;
+}
